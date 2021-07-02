@@ -9,7 +9,7 @@ export default function LastTenDays(props) {
       <table className="table table-striped table-hover table-borderless">
         <thead className="table-success">
           <tr>
-            <th scope="col">Tỉnh thành</th>
+            <th scope="col">Ngày</th>
             <th scope="col">Số ca nhiễm mới</th>
             <th scope="col">Số ca khỏi</th>
             <th scope="col">Số ca tử vong</th>
