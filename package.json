@@ -2,6 +2,7 @@
   "name": "covid-mindx",
   "version": "0.1.0",
   "private": true,
+  "author": "quyctd",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +10,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bootstrap": "^5.0.2",
+    "dayjs": "^1.10.5",
     "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
