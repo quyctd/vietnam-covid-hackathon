@@ -92,18 +92,18 @@ export default function Home() {
       <h1 className=" text-center mt-5">MindX - Covid19 Statistics</h1>
       <div className="mt-5">
         <div className="row">
-          <div className="col-12 col-md-8 my-2">
+          <div className="col-12 col-lg-8 my-2">
             <VietnamInfo vietnamInfo={vietnamInfo} />
           </div>
-          <div className="col-12 col-md-4 my-2">
+          <div className="col-12 col-lg-4 my-2">
             <ChartInfo vietnamInfo={vietnamInfo} />
           </div>
         </div>
         <div className="row">
-          <div className="col-12 col-md-6 my-2">
+          <div className="col-12 col-lg-6 my-2">
             <LastTenDays tenDaysData={tenDaysData} />
           </div>
-          <div className="col-12 col-md-6 my-2">
+          <div className="col-12 col-lg-6 my-2">
             <LastTenDaysTrend tenDaysData={tenDaysData} />
           </div>
         </div>
